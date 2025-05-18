@@ -7,16 +7,20 @@ let sonuc;
 if(islem=='*'){
     sonuc=ilkSayi*ikinciSayi;
     alert(`Sonuç: ${sonuc}`);
+    console.log(`İşlem sonucunuz ${sonuc}'tur.`);
 }
 else if(islem=='/'){
     sonuc=ilkSayi/ikinciSayi;
     alert(`Sonuç: ${sonuc}`);
+    console.log(`İşlem sonucunuz ${sonuc}'tur.`);
 }
 else if(islem=='+'){
     sonuc=ilkSayi+ikinciSayi;
     alert(`Sonuç: ${sonuc}`);
+    console.log(`İşlem sonucunuz ${sonuc}'tur.`);
 }
 else if(islem=='-'){
     sonuc=ilkSayi-ikinciSayi;
     alert(`Sonuç: ${sonuc}`);
+    console.log(`İşlem sonucunuz ${sonuc}'tur.`);
 }
